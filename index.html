@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Diakite Muheto | Resume</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <header>
+    <div class="container nav-container">
+      <h1 class="logo">KinglyDiak<span>.</span></h1>
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h2>Hi, I'm Diakite Muheto</h2>
+        <p>Aspiring Developer & Creative Storyteller</p>
+        <a href="#projects" class="btn">See My Work</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>I'm a computer science student, musician, and creative builder passionate about solving problems and empowering youth through technology and art.</p>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul class="skills-grid">
+          <li>HTML/CSS</li>
+          <li>JavaScript</li>
+          <li>Python</li>
+          <li>MySQL</li>
+          <li>Creative Writing</li>
+          <li>Music Production</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <h2>Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <h3>Backend Developer – Mental Health App</h3>
+            <span class="date">2025 – Present</span>
+            <p>Developed and managed a secure backend system using Python and MySQL for anonymous user-doctor interactions.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects">
+          <div class="card" data-project="project1">
+            <h3>Hottempah Ticketing</h3>
+            <p>USSD + Web system for event ticketing with real-time analytics and mobile payments.</p>
+          </div>
+          <div class="card" data-project="project2">
+            <h3>Sneaky Link</h3>
+            <p>Creative hub showcasing underground African art through events, profiles, and shops.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <h2>Education</h2>
+        <p><strong>BSc Computer Science</strong> – African Leadership University (2024–2028)</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <h2>Contact</h2>
+        <form id="contactForm">
+          <input type="text" id="name" placeholder="Your Name" required />
+          <input type="email" id="email" placeholder="Your Email" required />
+          <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit" class="btn">Send</button>
+          <p id="formMsg"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="year"></span> Diakite Muheto. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
